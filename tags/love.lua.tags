@@ -1,0 +1,5 @@
+#format=pipe
+#LÖVE Autocomplete Tags for Geany 1.22
+#Save as love.lua.tags and put in the Geany/data directory
+#They need to be loaded manually via Tools --> Load Tags each session
+#Unless someone else figures out how to have them auto loaded
