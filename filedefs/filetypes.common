@@ -1,7 +1,7 @@
 # For complete documentation of this file, please see Geany's main documentation
 [styling]
 # foreground;background;bold;italic - used for filetype All/None
-default=0xDDDDDD;0x1A1A1A;false;false
+default=0xDDDDDD;xF8F8F80;false;false
 
 # 3rd selection argument is true to override default foreground
 # 4th selection argument is true to override default background
@@ -40,18 +40,18 @@ marker_translucency=256;256;false;false
 
 # colour of the caret(the blinking cursor), only first and third argument is interpreted
 # set the third argument to true to change the caret into a block caret
-caret=0xFFFFFF;0x0;false;false
+caret=0x;0x0;false;false
 
 # width of the caret(the blinking cursor), only first argument is interpreted
 # width in pixels, use 0 to make it invisible, maximum width is 3
 caret_width=2;0;false;false
 
 # set foreground and background colour of indentation guides
-indent_guide=0x393939;0x1E1E1E;false;false
+indent_guide=0xBFBFBF;0xF8F8F8;false;false
 
 # third argument: if true, use this foreground color. If false, use the default value defined by the filetypes.
 # fourth argument: if true, use this background color. If false, use the default value defined by the filetypes.
-white_space=0x343232;0x1E1E1E;true;true
+white_space=0xBFBFBF;0xF8F8F8;true;true
 
 # style of folding icons, only first and second arguments are used, valid values are:
 # first argument:  1 for boxes, 2 for circles

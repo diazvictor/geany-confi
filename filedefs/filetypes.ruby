@@ -1,40 +1,26 @@
 # Railscasts' TextMate theme.
 
 [styling]
-# foreground;background;bold;italic
-default=0xeeeeee;0x2B2B2B;false;false
-commentline=0xBC9458;0x2B2B2B;false;true
-number=0xA5C261;0x2B2B2B;false;false
-string=0xA5C261;0x2B2B2B;false;false
-character=0xA5C261;0x2B2B2B;false;false
-word=0xCC7833;0x2B2B2B;true;false
-global=0xFF7357;0x2B2B2B;false;false
-symbol=0x6D9CBE;0x2B2B2B;false;false
-classname=0xFFFFFF;0x2B2B2B;true;false
-defname=0xFFC66D;0x2B2B2B;true;false
-operator=0x98BAC5;0x2B2B2B;false;false
-identifier=0xeeeeee;0x2B2B2B;false;false
-modulename=0xFFFFFF;0x2B2B2B;true;false
-backticks=0xB37FD3;0x361F43;false;false
-instancevar=0xD0D0FF;0x2B2B2B;false;true
-classvar=0xB37FD3;0x2B2B2B;true;true
-datasection=0xeeeeee;0x2B2B2B;false;false
-heredelim=0xeeeeee;0x2B2B2B;false;false
-worddemoted=0xFFCB4F;0x2B2B2B;true;false
-stdin=0xeeeeee;0x2B2B2B;false;false
-stdout=0xeeeeee;0x2B2B2B;false;false
-stderr=0xeeeeee;0x2B2B2B;false;false
-datasection=0xeeeeee;0x2B2B2B;false;false
-regex=0xAAFF57;0x2B2B2B;false;false
-here_q=0xffffff;0x2B2B2B;false;false
-here_qq=0xffffff;0x2B2B2B;true;false
-here_qx=0xffffff;0x2B2B2B;false;true
-string_q=0xA18651;0x2B2B2B;false;false
-string_qq=0xA18651;0x2B2B2B;false;false
-string_qx=0xA18651;0x2B2B2B;false;false
-string_qr=0xA18651;0x2B2B2B;false;false
-string_qw=0xA18651;0x2B2B2B;false;false
-upper_bound=0xeeeeee;0x2B2B2B;false;false
+default=default
+comment=comment
+commentline=comment_line
+commentdoc=comment_line_doc
+number=number_1
+word=keyword_1
+string=string_1
+character=character
+literalstring=string_2
+preprocessor=preprocess
+operator=operator
+identifier=identifier_1
+stringeol=string_eol
+function_basic=function
+function_other=type
+coroutines=class
+word5=keyword_1
+word6=keyword_2
+word7=keyword_3
+word8=keyword_4
 
 [keywords]
 # all items must be in one line

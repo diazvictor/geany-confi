@@ -1,7 +1,6 @@
 {fileheader}
 
-public static int main(string[] args)
-{
+public static int main(string[] args){
 
 	return 0;
 }

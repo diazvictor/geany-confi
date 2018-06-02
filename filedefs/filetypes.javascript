@@ -1,5 +1,5 @@
 [build-menu]
-FT_00_LB=JSHint
+FT_00_LB=_Lint
 FT_00_CM=jshint "%f"
 FT_00_WD=%d
 FT_01_LB=

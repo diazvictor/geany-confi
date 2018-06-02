@@ -39,5 +39,6 @@ at http://www.geany.org/manual/current/index.html#customizing-the-toolbar.
 		<separator/>
 		<toolitem action='Quit' />
 		<toolitem action='Preferences' />
+
 	</toolbar>
 </ui>

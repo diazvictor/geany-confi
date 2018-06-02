@@ -2,69 +2,26 @@
 
 [styling]
 # foreground;background;bold;italic
-html_default=0xeeeeee;0x2B2B2B;false;false
-html_tag=0xFFC66D;0x2B2B2B;true;false
-html_tagunknown=0xffffff;0x2B2B2B;true;false
-html_attribute=0xFFC66D;0x2B2B2B;false;false
-html_attributeunknown=0xFF8D6D;0x2B2B2B;false;false
-html_number=0xA5C261;0x2B2B2B;false;false
-html_doublestring=0xA5C261;0x2B2B2B;false;false
-html_singlestring=0xA5C261;0x2B2B2B;false;false
-html_other=0xffffff;0x2B2B2B;false;false
-html_comment=0xBC9458;0x2B2B2B;false;false
-html_entity=0xFFA95C;0x2B2B2B;false;false
-html_tagend=0xFFC66D;0x2B2B2B;true;false
-# <?
-html_xmlstart=0x000099;0x2B2B2B;false;false
-# ?>
-html_xmlend=0xffffff;0x2B2B2B;false;false
-# <script
-html_script=0xffffff;0x2B2B2B;false;false
-# <% ... %>
-html_asp=0xffffff;0x2B2B2B;false;false
-# <%@ ... %>
-html_aspat=0xffffff;0x2B2B2B;false;false
-html_cdata=0xffffff;0x2B2B2B;false;false
-html_question=0xffffff;0x2B2B2B;false;false
-html_value=0xffffff;0x2B2B2B;false;false
-html_xccomment=0xffffff;0x2B2B2B;false;false
-
-sgml_default=0xffffff;0x4C1700;false;false
-sgml_comment=0x747474;0x4C1700;false;false
-sgml_special=0xffffff;0x4C1700;false;false
-sgml_command=0xfffffff;0x4C1700;true;false
-sgml_doublestring=A8E498;0x4C1700;false;false
-sgml_simplestring=0xA8E498;0x4C1700;false;false
-sgml_1st_param=0xffffff;0x4C1700;false;false
-sgml_entity=0xFFA95C;0x4C1700;false;false
-sgml_block_default=0xffffff;0x4C1700;false;false
-sgml_1st_param_comment=0xffffff;0x4C1700;false;false
-sgml_error=0xff0000;0x4C1700;false;false
-
-php_default=0xffffff;0x2B2B2B;false;false
-php_simplestring=0xA18651;0x2B2B2B;false;false
-php_hstring=0xA18651;0x2B2B2B;false;false
-php_number=0x7ECDFF;0x2B2B2B;false;false
-php_word=0xFFCB4F;0x2B2B2B;true;false
-php_variable=0xffffff;0x2B2B2B;false;false
-php_comment=0x747474;0x2B2B2B;false;false
-php_commentline=0x747474;0x2B2B2B;false;false
-php_operator=0x98BAC5;0x2B2B2B;false;false
-php_hstring_variable=0xffffff;0x2B2B2B;false;false
-php_complex_variable=0xffffff;0x2B2B2B;false;false
-
-jscript_start=0x008080;0x2B2B2B;false;false
-jscript_default=0xeeeeee;0x2B2B2B;false;false
-jscript_comment=0x222222;0x2B2B2B;false;false
-jscript_commentline=0xBC9458;0x2B2B2B;false;false
-jscript_commentdoc=0x3f5fbf;0x2B2B2B;false;false
-jscript_number=0xA5C261;0x2B2B2B;false;false
-jscript_word=0xeeeeee;0x2B2B2B;false;false
-jscript_keyword=0xeeeeee;0x2B2B2B;false;false
-jscript_doublestring=0xA5C261;0x2B2B2B;false;false
-jscript_singlestring=0xA5C261;0x2B2B2B;false;false
-jscript_symbols=0xeeeeee;0x2B2B2B;false;false
-jscript_stringeol=0x000000;0x2B2B2B;false;false
+default=default
+comment=comment
+commentline=comment_line
+commentdoc=comment_line_doc
+number=number_1
+word=keyword_1
+string=string_1
+character=character
+literalstring=string_2
+preprocessor=preprocess
+operator=operator
+identifier=identifier_1
+stringeol=string_eol
+function_basic=function
+function_other=type
+coroutines=class
+word5=keyword_1
+word6=keyword_2
+word7=keyword_3
+word8=keyword_4
 
 
 [keywords]

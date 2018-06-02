@@ -2,8 +2,7 @@
 
 import std.stdio;
 
-int main(string[] args)
-{
+int main(string[] args){
 	
 	return 0;
 }
