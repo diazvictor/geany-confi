@@ -20,4 +20,4 @@ apc_inc|int|(string key [, int step = 1 [, bool &success ]])|
 apc_load_constants|bool|(string key [, bool case_sensitive = true ])| 
 apc_sma_info|array|([ bool limited = false ])| 
 apc_store|bool|(string key , mixed var [, int ttl = 0 ])| 
-apc_store|array|(array values [, mixed unused [, int ttl = 0 ]])| 
+apc_store|array \\n jojo |(array values [, mixed unused [, int ttl = 0 ]])| 

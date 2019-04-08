@@ -17,7 +17,7 @@ cmmentblock=comment
 stringeol=string_eol
 word2=keyword_2
 decorator=decorator
- 
+
 
 [keywords]
 # all items must be in one line
@@ -28,13 +28,13 @@ identifiers=ArithmeticError AssertionError AttributeError BaseException BufferEr
 FT_00_LB=_Compile
 FT_00_CM=python -m py_compile "%f"
 FT_00_WD=
-FT_02_LB=_Lint
+FT_02_LB=_Inspector de codigo
 FT_02_CM=pep8 %f
 FT_02_WD=
 FT_01_LB=
 FT_01_CM=
 FT_01_WD=
-EX_00_LB=_Execute
+EX_00_LB=_Ejecutar
 EX_00_CM=python "%f"
 EX_00_WD=
 EX_01_LB=

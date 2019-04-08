@@ -4,13 +4,13 @@
 
 
 local DirSep = geany.dirsep
-local HelpFile = DirSep.."geanylua-index.html"
+local HelpFile = DirSep.."index.html"
 local AppInfo = geany.appinfo()
 
 local OwnHelpDir=AppInfo.scriptdir..DirSep.."support"
 
 -- FIXME: expose GeanyLua's $DOCDIR to Lua scripts.
-local DocDir=geany.dirname(AppInfo.docdir:gsub("html", ""):gsub("geany", "geany-plugins"))
+local DocDir=geany.dirname(AppInfo.docdir:gsub("html", ""):gsub("geany", ""))
 local SysHelpDir=DocDir..DirSep.."geanylua"
 
 local Browsers={ AppInfo.tools.browser,

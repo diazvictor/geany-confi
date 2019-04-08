@@ -7,7 +7,7 @@ local filelist={}
 
 local dirsep = geany.dirsep
 
-local examples=geany.appinfo().scriptdir..dirsep.."examples"
+local examples=geany.appinfo().tools.action..dirsep.."usr/share/geany-plugins/geanylua/examples"
 
 function listfiles(dir)
   local stat=geany.stat(dir)

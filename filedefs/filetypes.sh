@@ -1,4 +1,5 @@
 # For complete documentation of this file, please see Geany's main documentation
+
 [styling]
 # Edit these in the colorscheme .conf file intead
 default=default
@@ -42,7 +43,7 @@ comment_single=#
 comment_use_indent=true
 
 # context action command (please see Geany's main documentation for details)
-context_action_cmd=
+context_action_cmd=zeal "bash:%s"
 
 [indentation]
 #width=4
@@ -54,3 +55,11 @@ context_action_cmd=
 # %e will be replaced by the filename without extension
 # (use only one of it at one time)
 run_cmd="./%f"
+
+[build-menu]
+FT_00_LB=_Inspector de codigo
+FT_00_CM=shellcheck --format=gcc "%f"
+FT_00_WD=
+FT_02_LB=
+FT_02_CM=
+FT_02_WD=

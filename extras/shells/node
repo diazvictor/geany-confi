@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo -e "Node.js v8.9.3 Copyright (C) contributors. all right reserved\nDocumentation can be found at https://nodejs.org/"; node

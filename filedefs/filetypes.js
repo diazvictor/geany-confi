@@ -3,12 +3,19 @@
 
 [keywords]
 # all items must be in one line
-primary=break case catch const continue default delete do each else false finally for function get if in Infinity instanceof let NaN new null return set switch this throw true try typeof undefined var void while with yield
-secondary=Array Boolean Date Function Math Number Object String RegExp EvalError Error RangeError ReferenceError SyntaxError TypeError URIError prototype decodeURI decodeURIComponent encodeURI encodeURIComponent eval isFinite isNaN parseFloat parseInt
+primary=break case catch class const continue debugger default delete do else enum export extends false finally for function get if import in Infinity instanceof let NaN new null return set static super switch this throw true try typeof undefined var void while with yield prototype async await
+secondary=Array Boolean Date Function Math Number Object String RegExp EvalError Error RangeError ReferenceError SyntaxError TypeError URIError constructor prototype decodeURI decodeURIComponent encodeURI encodeURIComponent eval isFinite isNaN parseFloat parseInt
+
+[lexer_properties=C]
+# partially handles ES6 template strings
+lexer.cpp.backquoted.strings=1
 
 [settings]
 # default extension used when saving files
 extension=js
+
+# MIME type
+mime_type=application/javascript
 
 # the following characters are these which a "word" can contains, see documentation
 #wordchars=_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
@@ -34,12 +41,3 @@ context_action_cmd=
 #width=4
 # 0 is spaces, 1 is tabs, 2 is tab & spaces
 #type=1
-
-[build_settings]
-# %f will be replaced by the complete filename
-# %e will be replaced by the filename without extension
-# (use only one of it at one time)
-compiler=
-run=
-
-

@@ -12,7 +12,6 @@ for k,v in pairs(math) do _G[k] = math[k] end
 -- Set window caption for some error messages
 geany.banner="Calculator"
 
-
 -- Grab any selected text
 sel=geany.selection()
 
@@ -68,5 +67,3 @@ end
 
 -- Replace current selection with our answer
 geany.selection(answer)
-
-

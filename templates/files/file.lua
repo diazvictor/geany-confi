@@ -1,7 +1,7 @@
---[[!
+--[[--
  @package   
  @filename  {filename}
  @version   {version}
- @autor     {developer} <{mail}>
+ @author    {developer} <{mail}>
  @date      {datetime}
-]]--
+]]

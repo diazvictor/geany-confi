@@ -1,6 +1,8 @@
 # For complete documentation of this file, please see Geany's main documentation
-[styling]
-# styling for PHP/HTML is done in filetypes.xml
+
+[styling=HTML]
+
+[keywords=HTML]
 
 [lexer_properties]
 phpscript.mode=1
@@ -28,7 +30,7 @@ comment_close=*/
 comment_use_indent=true
 
 # context action command (please see Geany's main documentation for details)
-context_action_cmd=
+context_action_cmd=zeal "php,html:%s"
 
 # if this setting is set to true, a new line after a line ending with an
 # unclosed tag will be automatically indented
@@ -48,3 +50,8 @@ run_cmd=php "%f"
 
 # use can also use something like this, to view your PHP or HTML files through a browser and webserver
 #run_cmd=firefox http://localhost/test_site/%f
+
+[build-menu]
+FT_00_LB=_Inspector de codigo
+FT_00_CM=php5 -l "%f"
+FT_00_WD=

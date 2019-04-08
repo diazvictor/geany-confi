@@ -1,4 +1,4 @@
---[[ 
+--[[
   Creates a new, untitled document containing a list
   of all currently opened (and named) files.
 --]]

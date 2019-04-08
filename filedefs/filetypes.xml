@@ -51,3 +51,8 @@ comment_use_indent=true
 
 # context action command (please see Geany's main documentation for details)
 context_action_cmd=
+
+[build-menu]
+EX_00_LB=_Ejecutar
+EX_00_CM=./e%o
+EX_00_WD=

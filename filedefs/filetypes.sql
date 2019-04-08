@@ -1,4 +1,5 @@
 # For complete documentation of this file, please see Geany's main documentation
+
 [styling]
 # Edit these in the colorscheme .conf file intead
 default=default
@@ -44,9 +45,23 @@ comment_close=*/
 comment_use_indent=true
 
 # context action command (please see Geany's main documentation for details)
-context_action_cmd=
+context_action_cmd=zeal "sqlite:%s"
 
 [indentation]
 #width=4
 # 0 is spaces, 1 is tabs, 2 is tab & spaces
 #type=1
+
+[build-menu]
+FT_00_LB=
+FT_00_CM=
+FT_00_WD=
+FT_01_LB=_Crear base de datos
+FT_01_CM=sqlite3 db.db < %f
+FT_01_WD=
+FT_02_LB=
+FT_02_CM=
+FT_02_WD=
+EX_00_LB=_Ejecutar
+EX_00_CM=sqlite3 %f
+EX_00_WD=

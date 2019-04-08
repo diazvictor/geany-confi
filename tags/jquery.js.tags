@@ -1,0 +1,499 @@
+# format=pipe
+# Library jQuery
+# Extract from jquery-api-latestxml
+add|(jQuery 10+) jQuery|(selector Selector) jQuery|
+add|(jQuery 10+) jQuery|(elements Elements) jQuery|
+add|(jQuery 10+) jQuery|(html htmlString) jQuery|
+add|(jQuery 132+) jQuery|(selection jQuery) jQuery|
+add|(jQuery 14+) jQuery|(selector Selector, context Element) jQuery|
+addBack|(jQuery 18+) jQuery|(selector Selector) jQuery|
+addClass|(jQuery 10+) jQuery|(className String) jQuery|
+addClass|(jQuery 14+) jQuery|(function Function) jQuery|
+after|(jQuery 10+) jQuery|(content *, content *) jQuery|
+after|(jQuery 14+) jQuery|(function Function) jQuery|
+ajaxComplete|(jQuery 10+) jQuery|(handler Function) jQuery|
+ajaxError|(jQuery 10+) jQuery|(handler Function) jQuery|
+ajaxSend|(jQuery 10+) jQuery|(handler Function) jQuery|
+ajaxStart|(jQuery 10+) jQuery|(handler Function) jQuery|
+ajaxStop|(jQuery 10+) jQuery|(handler Function) jQuery|
+ajaxSuccess|(jQuery 10+) jQuery|(handler Function) jQuery|
+all|(jQuery 10+) jQuery|
+andSelf|(jQuery 12+) jQuery|() jQuery|
+animate|(jQuery 10+) jQuery|(properties PlainObject, duration *, easing String, complete Function) jQuery|
+animate|(jQuery 10+) jQuery|(properties PlainObject, options PlainObject) jQuery|
+animated|(jQuery 12+) jQuery|
+append|(jQuery 10+) jQuery|(content *, content *) jQuery|
+append|(jQuery 14+) jQuery|(function Function) jQuery|
+appendTo|(jQuery 10+) jQuery|(target *) jQuery|
+attr|(jQuery 10+) jQuery|(attributeName String) String|
+attr|(jQuery 10+) jQuery|(attributeName String, value *) jQuery|
+attr|(jQuery 10+) jQuery|(attributes PlainObject) jQuery|
+attr|(jQuery 11+) jQuery|(attributeName String, function Function) jQuery|
+attributeContainsPrefix|(jQuery 10+) jQuery|
+attributeContains|(jQuery 10+) jQuery|
+attributeContainsWord|(jQuery 10+) jQuery|
+attributeEndsWith|(jQuery 10+) jQuery|
+attributeEquals|(jQuery 10+) jQuery|
+attributeNotEqual|(jQuery 10+) jQuery|
+attributeStartsWith|(jQuery 10+) jQuery|
+before|(jQuery 10+) jQuery|(content *, content *) jQuery|
+before|(jQuery 14+) jQuery|(function Function) jQuery|
+bind|(jQuery 10+) jQuery|(eventType String, eventData Anything, handler Function) jQuery|
+bind|(jQuery 143+) jQuery|(eventType String, eventData Anything, preventBubble Boolean) jQuery|
+bind|(jQuery 14+) jQuery|(events Object) jQuery|
+blur|(jQuery 10+) jQuery|(handler Function) jQuery|
+blur|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+blur|(jQuery 10+) jQuery|() jQuery|
+button|(jQuery 10+) jQuery|
+add|(jQuery 17+) callbacks|(callbacks *) Callbacks|
+disable|(jQuery 17+) callbacks|() Callbacks|
+disabled|(jQuery 17+) callbacks|() Boolean|
+empty|(jQuery 17+) callbacks|() Callbacks|
+fire|(jQuery 17+) callbacks|(arguments Anything) Callbacks|
+fireWith|(jQuery 17+) callbacks|(context *, args *) Callbacks|
+fired|(jQuery 17+) callbacks|() Boolean|
+has|(jQuery 17+) callbacks|(callback Function) Boolean|
+lock|(jQuery 17+) callbacks|() Callbacks|
+locked|(jQuery 17+) callbacks|() Boolean|
+remove|(jQuery 17+) callbacks|(callbacks *) Callbacks|
+change|(jQuery 10+) jQuery|(handler Function) jQuery|
+change|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+change|(jQuery 10+) jQuery|() jQuery|
+checkbox|(jQuery 10+) jQuery|
+checked|(jQuery 10+) jQuery|
+child|(jQuery 10+) jQuery|
+children|(jQuery 10+) jQuery|(selector Selector) jQuery|
+class|(jQuery 10+) jQuery|
+clearQueue|(jQuery 14+) jQuery|(queueName String) jQuery|
+click|(jQuery 10+) jQuery|(handler Function) jQuery|
+click|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+click|(jQuery 10+) jQuery|() jQuery|
+clone|(jQuery 10+) jQuery|(withDataAndEvents Boolean) jQuery|
+clone|(jQuery 15+) jQuery|(withDataAndEvents Boolean, deepWithDataAndEvents Boolean) jQuery|
+closest|(jQuery 13+) jQuery|(selector Selector) jQuery|
+closest|(jQuery 14+) jQuery|(selector Selector, context Element) jQuery|
+closest|(jQuery 16+) jQuery|(selection jQuery) jQuery|
+closest|(jQuery 16+) jQuery|(element Element) jQuery|
+closest|(jQuery 14+) jQuery|(selectors Array, context Element) Array|
+contains|(jQuery 114+) jQuery|
+contents|(jQuery 12+) jQuery|() jQuery|
+context|(jQuery 13+) jQuery||Type Element
+css|(jQuery 10+) jQuery|(propertyName String) String|
+css|(jQuery 19+) jQuery|(propertyNames Array) String|
+css|(jQuery 10+) jQuery|(propertyName String, value *) jQuery|
+css|(jQuery 14+) jQuery|(propertyName String, function Function) jQuery|
+css|(jQuery 10+) jQuery|(properties PlainObject) jQuery|
+data|(jQuery 123+) jQuery|(key String, value Anything) jQuery|
+data|(jQuery 143+) jQuery|(obj Object) jQuery|
+data|(jQuery 123+) jQuery|(key String) Object|
+data|(jQuery 14+) jQuery|() Object|
+dblclick|(jQuery 10+) jQuery|(handler Function) jQuery|
+dblclick|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+dblclick|(jQuery 10+) jQuery|() jQuery|
+always|(jQuery 16+) deferred|(alwaysCallbacks Function, alwaysCallbacks Function) Deferred|
+done|(jQuery 15+) deferred|(doneCallbacks Function, doneCallbacks Function) Deferred|
+fail|(jQuery 15+) deferred|(failCallbacks Function, failCallbacks Function) Deferred|
+isRejected|(jQuery 15+) deferred|() Boolean|
+isResolved|(jQuery 15+) deferred|() Boolean|
+notify|(jQuery 17+) deferred|(args Object) Deferred|
+notifyWith|(jQuery 17+) deferred|(context Object, args Array) Deferred|
+pipe|(jQuery 16+) deferred|(doneFilter Function, failFilter Function) Promise|
+pipe|(jQuery 17+) deferred|(doneFilter Function, failFilter Function, progressFilter Function) Promise|
+progress|(jQuery 17+) deferred|(progressCallbacks *) Deferred|
+promise|(jQuery 15+) deferred|(target Object) Promise|
+reject|(jQuery 15+) deferred|(args Anything) Deferred|
+rejectWith|(jQuery 15+) deferred|(context Object, args Array) Deferred|
+resolve|(jQuery 15+) deferred|(args Anything) Deferred|
+resolveWith|(jQuery 15+) deferred|(context Object, args Array) Deferred|
+state|(jQuery 17+) deferred|() String|
+then|(jQuery 18+) deferred|(doneFilter Function, failFilter Function, progressFilter Function) Promise|
+then|(jQuery 15+) deferred|(doneCallbacks Function, failCallbacks Function) Promise|
+then|(jQuery 17+) deferred|(doneCallbacks Function, failCallbacks Function, progressCallbacks Function) Promise|
+delay|(jQuery 14+) jQuery|(duration Integer, queueName String) jQuery|
+delegate|(jQuery 142+) jQuery|(selector String, eventType String, handler Function) jQuery|
+delegate|(jQuery 142+) jQuery|(selector String, eventType String, eventData Anything, handler Function) jQuery|
+delegate|(jQuery 143+) jQuery|(selector String, events PlainObject) jQuery|
+dequeue|(jQuery 12+) jQuery|(queueName String) jQuery|
+descendant|(jQuery 10+) jQuery|
+detach|(jQuery 14+) jQuery|(selector Selector) jQuery|
+die|(jQuery 141+) jQuery|() jQuery|
+die|(jQuery 13+) jQuery|(eventType String, handler String) jQuery|
+die|(jQuery 143+) jQuery|(events PlainObject) jQuery|
+disabled|(jQuery 10+) jQuery|
+each|(jQuery 10+) jQuery|(function Function) jQuery|
+element|(jQuery 10+) jQuery|
+empty|(jQuery 10+) jQuery|
+empty|(jQuery 10+) jQuery|() jQuery|
+enabled|(jQuery 10+) jQuery|
+end|(jQuery 10+) jQuery|() jQuery|
+eq|(jQuery 10+) jQuery|
+eq|(jQuery 18+) jQuery|
+eq|(jQuery 112+) jQuery|(index Integer) jQuery|
+eq|(jQuery 14+) jQuery|(indexFromEnd Integer) jQuery|
+error|(jQuery 10+) jQuery|(handler Function) jQuery|
+error|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+even|(jQuery 10+) jQuery|
+currentTarget|(jQuery 13+) event||Type Element
+data|(jQuery 11+) event||Type Object
+delegateTarget|(jQuery 17+) event||Type Element
+isDefaultPrevented|(jQuery 13+) event|() Boolean|
+isImmediatePropagationStopped|(jQuery 13+) event|() Boolean|
+isPropagationStopped|(jQuery 13+) event|() Boolean|
+metaKey|(jQuery 104+) event||Type Boolean
+namespace|(jQuery 143+) event||Type String
+pageX|(jQuery 104+) event||Type Number
+pageY|(jQuery 104+) event||Type Number
+preventDefault|(jQuery 10+) event|() void|
+relatedTarget|(jQuery 114+) event||Type Element
+result|(jQuery 13+) event||Type Object
+stopImmediatePropagation|(jQuery 13+) event|() void|
+stopPropagation|(jQuery 10+) event|() void|
+target|(jQuery 10+) event||Type Element
+timeStamp|(jQuery 126+) event||Type Number
+type|(jQuery 10+) event||Type String
+which|(jQuery 113+) event||Type Number
+fadeIn|(jQuery 10+) jQuery|(duration *, complete Function) jQuery|
+fadeIn|(jQuery 10+) jQuery|(options PlainObject) jQuery|
+fadeIn|(jQuery 143+) jQuery|(duration *, easing String, complete Function) jQuery|
+fadeOut|(jQuery 10+) jQuery|(duration *, complete Function) jQuery|
+fadeOut|(jQuery 10+) jQuery|(options PlainObject) jQuery|
+fadeOut|(jQuery 143+) jQuery|(duration *, easing String, complete Function) jQuery|
+fadeTo|(jQuery 10+) jQuery|(duration *, opacity Number, complete Function) jQuery|
+fadeTo|(jQuery 143+) jQuery|(duration *, opacity Number, easing String, complete Function) jQuery|
+fadeToggle|(jQuery 144+) jQuery|(duration *, easing String, complete Function) jQuery|
+fadeToggle|(jQuery 144+) jQuery|(options PlainObject) jQuery|
+file|(jQuery 10+) jQuery|
+filter|(jQuery 10+) jQuery|(selector Selector) jQuery|
+filter|(jQuery 10+) jQuery|(function Function) jQuery|
+filter|(jQuery 14+) jQuery|(elements Element) jQuery|
+filter|(jQuery 14+) jQuery|(selection jQuery) jQuery|
+find|(jQuery 10+) jQuery|(selector Selector) jQuery|
+find|(jQuery 16+) jQuery|(element *) jQuery|
+finish|(jQuery 19+) jQuery|(queue String) jQuery|
+first-child|(jQuery 114+) jQuery|
+first-of-type|(jQuery 19+) jQuery|
+first|(jQuery 10+) jQuery|
+first|(jQuery 14+) jQuery|() jQuery|
+focus|(jQuery 16+) jQuery|
+focus|(jQuery 10+) jQuery|(handler Function) jQuery|
+focus|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+focus|(jQuery 10+) jQuery|() jQuery|
+focusin|(jQuery 14+) jQuery|(handler Function) jQuery|
+focusin|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+focusout|(jQuery 14+) jQuery|(handler Function) jQuery|
+focusout|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+get|(jQuery 10+) jQuery|(index Integer) Element|
+get|(jQuery 10+) jQuery|() Array|
+gt|(jQuery 10+) jQuery|
+gt|(jQuery 18+) jQuery|
+attributeHas|(jQuery 10+) jQuery|
+has|(jQuery 114+) jQuery|
+has|(jQuery 14+) jQuery|(selector String) jQuery|
+has|(jQuery 14+) jQuery|(contained Element) jQuery|
+hasClass|(jQuery 12+) jQuery|(className String) Boolean|
+header|(jQuery 12+) jQuery|
+height|(jQuery 10+) jQuery|() Number|
+height|(jQuery 10+) jQuery|(value *) jQuery|
+height|(jQuery 141+) jQuery|(function Function) jQuery|
+hidden|(jQuery 10+) jQuery|
+hide|(jQuery 10+) jQuery|() jQuery|
+hide|(jQuery 10+) jQuery|(duration *, complete Function) jQuery|
+hide|(jQuery 10+) jQuery|(options PlainObject) jQuery|
+hide|(jQuery 143+) jQuery|(duration *, easing String, complete Function) jQuery|
+hover|(jQuery 10+) jQuery|(handlerIn Function, handlerOut Function) jQuery|
+hover|(jQuery 14+) jQuery|(handlerInOut Function) jQuery|
+html|(jQuery 10+) jQuery|() String|
+html|(jQuery 10+) jQuery|(htmlString htmlString) jQuery|
+html|(jQuery 14+) jQuery|(function Function) jQuery|
+id|(jQuery 10+) jQuery|
+image|(jQuery 10+) jQuery|
+index|(jQuery 14+) jQuery|() Number|
+index|(jQuery 14+) jQuery|(selector Selector) Number|
+index|(jQuery 10+) jQuery|(element *) Number|
+innerHeight|(jQuery 126+) jQuery|() Number|
+innerHeight|(jQuery 180+) jQuery|(value *) jQuery|
+innerHeight|(jQuery 180+) jQuery|(function Function) jQuery|
+innerWidth|(jQuery 126+) jQuery|() Integer|
+innerWidth|(jQuery 180+) jQuery|(value *) jQuery|
+innerWidth|(jQuery 180+) jQuery|(function Function) jQuery|
+input|(jQuery 10+) jQuery|
+insertAfter|(jQuery 10+) jQuery|(target *) jQuery|
+insertBefore|(jQuery 10+) jQuery|(target *) jQuery|
+is|(jQuery 10+) jQuery|(selector Selector) Boolean|
+is|(jQuery 16+) jQuery|(function Function) Boolean|
+is|(jQuery 16+) jQuery|(selection jQuery) Boolean|
+is|(jQuery 16+) jQuery|(elements Element) Boolean|
+Callbacks|(jQuery 17+) [static] jQuery|(flags String) Callbacks|
+Deferred|(jQuery 15+) [static] jQuery|(beforeStart Function) Deferred|
+ajax|(jQuery 15+) [static] jQuery|(url String, settings PlainObject) jqXHR|
+ajax|(jQuery 10+) [static] jQuery|(settings PlainObject) jqXHR|
+ajaxPrefilter|(jQuery 15+) [static] jQuery|(dataTypes String, handler Function) void|
+ajaxSetup|(jQuery 11+) [static] jQuery|(options PlainObject) void|
+ajaxTransport|(jQuery 15+) [static] jQuery|(dataType String, handler Function) void|
+boxModel|(jQuery 10+) [static] jQuery||Type Boolean
+browser|(jQuery 10+) [static] jQuery||Type PlainObject
+version|(jQuery 113+) [static] browser||Type String
+contains|(jQuery 14+) [static] jQuery|(container Element, contained Element) Boolean|
+cssHooks|(jQuery 143+) [static] jQuery||Type Object
+data|(jQuery 123+) [static] jQuery|(element Element, key String, value Anything) Object|
+data|(jQuery 123+) [static] jQuery|(element Element, key String) Object|
+data|(jQuery 14+) [static] jQuery|(element Element) Object|
+dequeue|(jQuery 13+) [static] jQuery|(element Element, queueName String) void|
+each|(jQuery 10+) [static] jQuery|(array Array, callback Function) Object|
+each|(jQuery 10+) [static] jQuery|(object Object, callback Function) Object|
+error|(jQuery 141+) [static] jQuery|(message String) void|
+extend|(jQuery 10+) [static] jQuery|(target Object, object1 Object, objectN Object) Object|
+extend|(jQuery 114+) [static] jQuery|(deep Boolean, target Object, object1 Object, objectN Object) Object|
+extend|(jQuery 10+) [static] fn|(object Object) Object|
+interval|(jQuery 143+) [static] fx||Type Number
+off|(jQuery 13+) [static] fx||Type Boolean
+get|(jQuery 10+) [static] jQuery|(url String, data *, success Function, dataType String) jqXHR|
+getJSON|(jQuery 10+) [static] jQuery|(url String, data PlainObject, success Function) jqXHR|
+getScript|(jQuery 10+) [static] jQuery|(url String, success Function) jqXHR|
+globalEval|(jQuery 104+) [static] jQuery|(code String) void|
+grep|(jQuery 10+) [static] jQuery|(array Array, function Function, invert Boolean) Array|
+hasData|(jQuery 15+) [static] jQuery|(element Element) Boolean|
+holdReady|(jQuery 16+) [static] jQuery|(hold Boolean) void|
+inArray|(jQuery 12+) [static] jQuery|(value Anything, array Array, fromIndex Number) Number|
+isArray|(jQuery 13+) [static] jQuery|(obj Object) boolean|
+isEmptyObject|(jQuery 14+) [static] jQuery|(object Object) Boolean|
+isFunction|(jQuery 12+) [static] jQuery|(obj PlainObject) boolean|
+isNumeric|(jQuery 17+) [static] jQuery|(value PlainObject) Boolean|
+isPlainObject|(jQuery 14+) [static] jQuery|(object PlainObject) Boolean|
+isWindow|(jQuery 143+) [static] jQuery|(obj PlainObject) boolean|
+isXMLDoc|(jQuery 114+) [static] jQuery|(node Element) Boolean|
+makeArray|(jQuery 12+) [static] jQuery|(obj PlainObject) Array|
+map|(jQuery 10+) [static] jQuery|(array Array, callback Function) Array|
+map|(jQuery 16+) [static] jQuery|(object Object, callback Function) Array|
+merge|(jQuery 10+) [static] jQuery|(first Array, second Array) Array|
+noConflict|(jQuery 10+) [static] jQuery|(removeAll Boolean) Object|
+noop|(jQuery 14+) [static] jQuery|() void|
+now|(jQuery 143+) [static] jQuery|() Number|
+param|(jQuery 12+) [static] jQuery|(obj *) String|
+param|(jQuery 14+) [static] jQuery|(obj *, traditional Boolean) String|
+parseHTML|(jQuery 18+) [static] jQuery|(data String, context Element, keepScripts Boolean) Array|
+parseJSON|(jQuery 141+) [static] jQuery|(json String) Object|
+parseXML|(jQuery 15+) [static] jQuery|(data String) XMLDocument|
+post|(jQuery 10+) [static] jQuery|(url String, data *, success Function, dataType String) jqXHR|
+proxy|(jQuery 14+) [static] jQuery|(function Function, context PlainObject) Function|
+proxy|(jQuery 14+) [static] jQuery|(context PlainObject, name String) Function|
+proxy|(jQuery 16+) [static] jQuery|(function Function, context PlainObject, additionalArguments Anything) Function|
+proxy|(jQuery 16+) [static] jQuery|(context PlainObject, name String, additionalArguments Anything) Function|
+queue|(jQuery 13+) [static] jQuery|(element Element, queueName String) Array|
+queue|(jQuery 13+) [static] jQuery|(element Element, queueName String, newQueue Array) jQuery|
+queue|(jQuery 13+) [static] jQuery|(element Element, queueName String, callback Function) jQuery|
+removeData|(jQuery 123+) [static] jQuery|(element Element, name String) jQuery|
+sub|(jQuery 15+) [static] jQuery|() jQuery|
+support|(jQuery 13+) [static] jQuery||Type Object
+trim|(jQuery 10+) [static] jQuery|(str String) String|
+type|(jQuery 143+) [static] jQuery|(obj Anything) String|
+unique|(jQuery 113+) [static] jQuery|(array Array) Array|
+when|(jQuery 15+) [static] jQuery|(deferreds Deferred) Promise|
+jQuery|(jQuery 10+) jQuery|(selector Selector, context *) jQuery|
+jQuery|(jQuery 10+) jQuery|(element Element) jQuery|
+jQuery|(jQuery 10+) jQuery|(elementArray Array) jQuery|
+jQuery|(jQuery 10+) jQuery|(object PlainObject) jQuery|
+jQuery|(jQuery 10+) jQuery|(selection jQuery) jQuery|
+jQuery|(jQuery 14+) jQuery|() jQuery|
+jQuery|(jQuery 10+) jQuery|(html htmlString, ownerDocument document) jQuery|
+jQuery|(jQuery 14+) jQuery|(html htmlString, attributes PlainObject) jQuery|
+jQuery|(jQuery 10+) jQuery|(callback Function) jQuery|
+jquery|(jQuery 10+) jQuery||Type String
+keydown|(jQuery 10+) jQuery|(handler Function) jQuery|
+keydown|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+keydown|(jQuery 10+) jQuery|() jQuery|
+keypress|(jQuery 10+) jQuery|(handler Function) jQuery|
+keypress|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+keypress|(jQuery 10+) jQuery|() jQuery|
+keyup|(jQuery 10+) jQuery|(handler Function) jQuery|
+keyup|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+keyup|(jQuery 10+) jQuery|() jQuery|
+lang|(jQuery 19+) jQuery|
+last-child|(jQuery 114+) jQuery|
+last-of-type|(jQuery 19+) jQuery|
+last|(jQuery 10+) jQuery|
+last|(jQuery 14+) jQuery|() jQuery|
+length|(jQuery 10+) jQuery||Type Integer
+live|(jQuery 13+) jQuery|(events String, handler Function) jQuery|
+live|(jQuery 14+) jQuery|(events String, data PlainObject, handler Function) jQuery|
+live|(jQuery 143+) jQuery|(events PlainObject) jQuery|
+load|(jQuery 10+) jQuery|(handler Function) jQuery|
+load|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+load|(jQuery 10+) jQuery|(url String, data *, complete Function) jQuery|
+lt|(jQuery 10+) jQuery|
+lt|(jQuery 18+) jQuery|
+map|(jQuery 12+) jQuery|(callback Function) jQuery|
+mousedown|(jQuery 10+) jQuery|(handler Function) jQuery|
+mousedown|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+mousedown|(jQuery 10+) jQuery|() jQuery|
+mouseenter|(jQuery 10+) jQuery|(handler Function) jQuery|
+mouseenter|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+mouseenter|(jQuery 10+) jQuery|() jQuery|
+mouseleave|(jQuery 10+) jQuery|(handler Function) jQuery|
+mouseleave|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+mouseleave|(jQuery 10+) jQuery|() jQuery|
+mousemove|(jQuery 10+) jQuery|(handler Function) jQuery|
+mousemove|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+mousemove|(jQuery 10+) jQuery|() jQuery|
+mouseout|(jQuery 10+) jQuery|(handler Function) jQuery|
+mouseout|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+mouseout|(jQuery 10+) jQuery|() jQuery|
+mouseover|(jQuery 10+) jQuery|(handler Function) jQuery|
+mouseover|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+mouseover|(jQuery 10+) jQuery|() jQuery|
+mouseup|(jQuery 10+) jQuery|(handler Function) jQuery|
+mouseup|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+mouseup|(jQuery 10+) jQuery|() jQuery|
+attributeMultiple|(jQuery 10+) jQuery|
+multiple|(jQuery 10+) jQuery|
+next adjacent|(jQuery 10+) jQuery|
+next siblings|(jQuery 10+) jQuery|
+next|(jQuery 10+) jQuery|(selector Selector) jQuery|
+nextAll|(jQuery 12+) jQuery|(selector String) jQuery|
+nextUntil|(jQuery 14+) jQuery|(selector Selector, filter Selector) jQuery|
+nextUntil|(jQuery 16+) jQuery|(element *, filter Selector) jQuery|
+not|(jQuery 10+) jQuery|
+not|(jQuery 10+) jQuery|(selector *) jQuery|
+not|(jQuery 14+) jQuery|(function Function) jQuery|
+not|(jQuery 14+) jQuery|(selection jQuery) jQuery|
+nth-child|(jQuery 114+) jQuery|
+nth-last-child|(jQuery 19+) jQuery|
+nth-last-of-type|(jQuery 19+) jQuery|
+nth-of-type|(jQuery 19+) jQuery|
+odd|(jQuery 10+) jQuery|
+off|(jQuery 17+) jQuery|(events String, selector String, handler Function) jQuery|
+off|(jQuery 17+) jQuery|(events PlainObject, selector String) jQuery|
+off|(jQuery 17+) jQuery|() jQuery|
+offset|(jQuery 12+) jQuery|() Object|
+offset|(jQuery 14+) jQuery|(coordinates PlainObject) jQuery|
+offset|(jQuery 14+) jQuery|(function Function) jQuery|
+offsetParent|(jQuery 126+) jQuery|() jQuery|
+on|(jQuery 17+) jQuery|(events String, selector String, data Anything, handler Function) jQuery|
+on|(jQuery 17+) jQuery|(events PlainObject, selector String, data Anything) jQuery|
+one|(jQuery 11+) jQuery|(events String, data PlainObject, handler Function) jQuery|
+one|(jQuery 17+) jQuery|(events String, selector String, data Anything, handler Function) jQuery|
+one|(jQuery 17+) jQuery|(events PlainObject, selector String, data Anything) jQuery|
+only-child|(jQuery 114+) jQuery|
+only-of-type|(jQuery 19+) jQuery|
+outerHeight|(jQuery 126+) jQuery|(includeMargin Boolean) Number|
+outerWidth|(jQuery 126+) jQuery|(includeMargin Boolean) Number|
+parent|(jQuery 10+) jQuery|
+parent|(jQuery 10+) jQuery|(selector Selector) jQuery|
+parents|(jQuery 10+) jQuery|(selector Selector) jQuery|
+parentsUntil|(jQuery 14+) jQuery|(selector Selector, filter Selector) jQuery|
+parentsUntil|(jQuery 16+) jQuery|(element *, filter Selector) jQuery|
+password|(jQuery 10+) jQuery|
+position|(jQuery 12+) jQuery|() Object|
+prepend|(jQuery 10+) jQuery|(content *, content *) jQuery|
+prepend|(jQuery 14+) jQuery|(function Function) jQuery|
+prependTo|(jQuery 10+) jQuery|(target *) jQuery|
+prev|(jQuery 10+) jQuery|(selector Selector) jQuery|
+prevAll|(jQuery 12+) jQuery|(selector Selector) jQuery|
+prevUntil|(jQuery 14+) jQuery|(selector Selector, filter Selector) jQuery|
+prevUntil|(jQuery 16+) jQuery|(element *, filter Selector) jQuery|
+promise|(jQuery 16+) jQuery|(type String, target PlainObject) Promise|
+prop|(jQuery 16+) jQuery|(propertyName String) void|
+prop|(jQuery 16+) jQuery|(propertyName String, value Anything) jQuery|
+prop|(jQuery 16+) jQuery|(properties PlainObject) jQuery|
+prop|(jQuery 16+) jQuery|(propertyName String, function Function) jQuery|
+pushStack|(jQuery 10+) jQuery|(elements Array) jQuery|
+pushStack|(jQuery 13+) jQuery|(elements Array, name String, arguments Array) jQuery|
+queue|(jQuery 12+) jQuery|(queueName String) Array|
+queue|(jQuery 12+) jQuery|(queueName String, newQueue Array) jQuery|
+queue|(jQuery 12+) jQuery|(queueName String, callback Function) jQuery|
+radio|(jQuery 10+) jQuery|
+ready|(jQuery 10+) jQuery|(handler Function) jQuery|
+remove|(jQuery 10+) jQuery|(selector String) jQuery|
+removeAttr|(jQuery 10+) jQuery|(attributeName String) jQuery|
+removeClass|(jQuery 10+) jQuery|(className String) jQuery|
+removeClass|(jQuery 14+) jQuery|(function Function) jQuery|
+removeData|(jQuery 123+) jQuery|(name String) jQuery|
+removeData|(jQuery 17+) jQuery|(list *) jQuery|
+removeProp|(jQuery 16+) jQuery|(propertyName String) jQuery|
+replaceAll|(jQuery 12+) jQuery|(target *) jQuery|
+replaceWith|(jQuery 12+) jQuery|(newContent *) jQuery|
+replaceWith|(jQuery 14+) jQuery|(function Function) jQuery|
+reset|(jQuery 10+) jQuery|
+resize|(jQuery 10+) jQuery|(handler Function) jQuery|
+resize|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+resize|(jQuery 10+) jQuery|() jQuery|
+root|(jQuery 19+) jQuery|
+scroll|(jQuery 10+) jQuery|(handler Function) jQuery|
+scroll|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+scroll|(jQuery 10+) jQuery|() jQuery|
+scrollLeft|(jQuery 126+) jQuery|() Integer|
+scrollLeft|(jQuery 126+) jQuery|(value Number) jQuery|
+scrollTop|(jQuery 126+) jQuery|() Integer|
+scrollTop|(jQuery 126+) jQuery|(value Number) jQuery|
+select|(jQuery 10+) jQuery|(handler Function) jQuery|
+select|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+select|(jQuery 10+) jQuery|() jQuery|
+selected|(jQuery 10+) jQuery|
+selector|(jQuery 13+) jQuery||Type String
+serialize|(jQuery 10+) jQuery|() String|
+serializeArray|(jQuery 12+) jQuery|() Array|
+show|(jQuery 10+) jQuery|() jQuery|
+show|(jQuery 10+) jQuery|(duration *, complete Function) jQuery|
+show|(jQuery 10+) jQuery|(options PlainObject) jQuery|
+show|(jQuery 143+) jQuery|(duration *, easing String, complete Function) jQuery|
+siblings|(jQuery 10+) jQuery|(selector Selector) jQuery|
+size|(jQuery 10+) jQuery|() Integer|
+slice|(jQuery 114+) jQuery|(start Integer, end Integer) jQuery|
+slideDown|(jQuery 10+) jQuery|(duration *, complete Function) jQuery|
+slideDown|(jQuery 10+) jQuery|(options PlainObject) jQuery|
+slideDown|(jQuery 143+) jQuery|(duration *, easing String, complete Function) jQuery|
+slideToggle|(jQuery 10+) jQuery|(duration *, complete Function) jQuery|
+slideToggle|(jQuery 10+) jQuery|(options PlainObject) jQuery|
+slideToggle|(jQuery 143+) jQuery|(duration *, easing String, complete Function) jQuery|
+slideUp|(jQuery 10+) jQuery|(duration *, complete Function) jQuery|
+slideUp|(jQuery 10+) jQuery|(options PlainObject) jQuery|
+slideUp|(jQuery 143+) jQuery|(duration *, easing String, complete Function) jQuery|
+stop|(jQuery 12+) jQuery|(clearQueue Boolean, jumpToEnd Boolean) jQuery|
+stop|(jQuery 17+) jQuery|(queue String, clearQueue Boolean, jumpToEnd Boolean) jQuery|
+submit|(jQuery 10+) jQuery|
+submit|(jQuery 10+) jQuery|(handler Function) jQuery|
+submit|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+submit|(jQuery 10+) jQuery|() jQuery|
+target|(jQuery 19+) jQuery|
+text|(jQuery 10+) jQuery|
+text|(jQuery 10+) jQuery|() String|
+text|(jQuery 10+) jQuery|(text *) jQuery|
+text|(jQuery 14+) jQuery|(function Function) jQuery|
+toArray|(jQuery 14+) jQuery|() Array|
+toggle|(jQuery 10+) jQuery|(handler Function, handler Function, handler Function) jQuery|
+toggle|(jQuery 10+) jQuery|(duration *, complete Function) jQuery|
+toggle|(jQuery 10+) jQuery|(options PlainObject) jQuery|
+toggle|(jQuery 143+) jQuery|(duration *, easing String, complete Function) jQuery|
+toggle|(jQuery 13+) jQuery|(showOrHide Boolean) jQuery|
+toggleClass|(jQuery 10+) jQuery|(className String) jQuery|
+toggleClass|(jQuery 13+) jQuery|(className String, switch Boolean) jQuery|
+toggleClass|(jQuery 14+) jQuery|(switch Boolean) jQuery|
+toggleClass|(jQuery 14+) jQuery|(function Function, switch Boolean) jQuery|
+trigger|(jQuery 10+) jQuery|(eventType String, extraParameters *) jQuery|
+trigger|(jQuery 13+) jQuery|(event Event, extraParameters *) jQuery|
+triggerHandler|(jQuery 12+) jQuery|(eventType String, extraParameters Array) Object|
+unbind|(jQuery 10+) jQuery|(eventType String, handler Function) jQuery|
+unbind|(jQuery 143+) jQuery|(eventType String, false Boolean) jQuery|
+unbind|(jQuery 10+) jQuery|(event Object) jQuery|
+unbind|(jQuery 10+) jQuery|() jQuery|
+undelegate|(jQuery 142+) jQuery|() jQuery|
+undelegate|(jQuery 142+) jQuery|(selector String, eventType String) jQuery|
+undelegate|(jQuery 142+) jQuery|(selector String, eventType String, handler Function) jQuery|
+undelegate|(jQuery 143+) jQuery|(selector String, events PlainObject) jQuery|
+undelegate|(jQuery 16+) jQuery|(namespace String) jQuery|
+unload|(jQuery 10+) jQuery|(handler Function) jQuery|
+unload|(jQuery 143+) jQuery|(eventData Anything, handler Function) jQuery|
+unwrap|(jQuery 14+) jQuery|() jQuery|
+val|(jQuery 10+) jQuery|() void|
+val|(jQuery 10+) jQuery|(value *) jQuery|
+val|(jQuery 14+) jQuery|(function Function) jQuery|
+visible|(jQuery 10+) jQuery|
+width|(jQuery 10+) jQuery|() Number|
+width|(jQuery 10+) jQuery|(value *) jQuery|
+width|(jQuery 141+) jQuery|(function Function) jQuery|
+wrap|(jQuery 10+) jQuery|(wrappingElement *) jQuery|
+wrap|(jQuery 14+) jQuery|(function Function) jQuery|
+wrapAll|(jQuery 12+) jQuery|(wrappingElement *) jQuery|
+wrapAll|(jQuery 14+) jQuery|(function Function) jQuery|
+wrapInner|(jQuery 12+) jQuery|(wrappingElement *) jQuery|
+wrapInner|(jQuery 14+) jQuery|(function Function) jQuery|

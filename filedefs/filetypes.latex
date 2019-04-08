@@ -1,4 +1,5 @@
 # For complete documentation of this file, please see Geany's main documentation
+
 [styling]
 # Edit these in the colorscheme .conf file instead
 default=default
@@ -64,3 +65,10 @@ EX_00_BD=false
 EX_01_LB=_View DVI File
 EX_01_CM=xdvi "%e.dvi"
 EX_01_BD=false
+FT_00_WD=
+FT_01_WD=
+FT_02_LB=Bibtex
+FT_02_CM=bibtex "%e"
+FT_02_WD=
+EX_00_WD=
+EX_01_WD=

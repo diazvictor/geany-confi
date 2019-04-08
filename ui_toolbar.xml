@@ -17,11 +17,9 @@ at http://www.geany.org/manual/current/index.html#customizing-the-toolbar.
 	<toolbar name='GeanyToolbar'>
 		<toolitem action='New' />
 		<toolitem action='Open' />
+		<separator/>
 		<toolitem action='Save' />
 		<toolitem action='SaveAll' />
-		<separator/>
-		<toolitem action='Reload' />
-		<toolitem action='Close' />
 		<separator/>
 		<toolitem action='NavBack' />
 		<toolitem action='NavFor' />
